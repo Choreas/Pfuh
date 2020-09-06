@@ -1,0 +1,27 @@
+{
+  "name": "proj.choreas.pffuh",
+  "version": "1.0.0",
+  "description": "This is the project created from the template: cordova_template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "tsc --build tsconfig.json && cordova run browser"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "license": "ISC",
+  "displayName": "pffuh",
+  "devDependencies": {
+    "cordova-browser": "^6.0.0",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "dependencies": {},
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "browser"
+    ]
+  }
+}

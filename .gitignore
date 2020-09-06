@@ -1,0 +1,10 @@
+node_modules
+platforms
+hooks
+plugins
+.vscode
+typings
+
+## Transpiled typescript sourcecode
+www/js/*/
+www/js/main.js
